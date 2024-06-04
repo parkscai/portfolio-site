@@ -4,6 +4,41 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: azure;
+  font-family: 'Quicksand';
+}
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+.logo {
+  max-width: 100px;
+  cursor: pointer;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 2px 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: white;
 }
